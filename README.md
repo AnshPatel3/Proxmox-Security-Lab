@@ -3,6 +3,8 @@
 This repository documents my comprehensive homelab, built on a 2-node Proxmox VE cluster. This project serves as a practical sandbox for learning and implementing enterprise-grade virtualization, advanced network security, and modern infrastructure management.
 
 It features a complete "defense-in-depth" security posture, integrating a SIEM (Wazuh) with an IDS (Suricata) and an NGFW (OPNSense/Zenarmor). The environment also virtualizes core services like Active Directory, network-attached storage, and secure remote access.
+## Server Specs
+<img width="1440" height="790" alt="image" src="https://github.com/user-attachments/assets/6da525c4-64dd-4577-b01a-adb2770eb655" />
 
 ## Proxmox Dashboard
 <img width="1440" height="813" alt="image" src="https://github.com/user-attachments/assets/4fec4684-35c9-4378-a58e-4b3e84701aa9" />
@@ -65,9 +67,8 @@ A key highlight of this project is the successful implementation of PCI-Passthro
 
 ## 📸 Dashboard Showcase
 
-The composite screenshot below provides a "day-in-the-life" overview of the entire stack in operation.
 
-*(**Note:** You've got a great composite image. I'd also recommend uploading each of these screenshots separately and embedding them here under relevant sub-headings for a clearer, more detailed view.)*
+
 
 * **Proxmox:** Cluster-wide management.
 * **OPNSense:** Core network routing and firewalling.
@@ -78,7 +79,11 @@ The composite screenshot below provides a "day-in-the-life" overview of the enti
 * **Tailscale:** Zero-trust device connectivity.
 * **Windows 11 VDI:** Task Manager confirming the successful passthrough of the RTX 3050.
 
-![Composite screenshot of the Proxmox Lab dashboards](image_46e41c.jpg)
+<img width="1440" height="813" alt="image" src="https://github.com/user-attachments/assets/6e57f9a2-4c7f-4e4d-856f-e31521b3d003" />
+<img width="1440" height="813" alt="image" src="https://github.com/user-attachments/assets/b7e14735-2d90-4c0e-ab12-f0181a15e7e4" />
+<img width="1440" height="813" alt="image" src="https://github.com/user-attachments/assets/436a224b-0b70-4b6a-a7c8-4306f37d1860" />
+<img width="1440" height="813" alt="image" src="https://github.com/user-attachments/assets/d1d1bc70-552a-4a12-9e6d-458168529d89" />
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/20619a0f-5c0d-4595-a2c1-204aaab6f73f" />
 
 ---
 
